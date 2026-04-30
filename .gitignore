@@ -1,0 +1,7 @@
+# 대용량 데이터 파일 (Kaggle에서 직접 다운로드)
+*.db
+data/
+
+# Python
+__pycache__/
+*.pyc
