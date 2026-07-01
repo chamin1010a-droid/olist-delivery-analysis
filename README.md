@@ -129,5 +129,6 @@ ecommerce_sql/
 |---|---------|--------|------------|
 | **Part 1** | **Olist 배송 분석** *(현재 저장소)* | 이커머스 | 파이프라인 원형. 지연 원인을 *판매자 vs 물류*로 분리 |
 | **Part 2** | [병원 재입원 분석](https://github.com/chamin1010a-droid/hospital-readmission-analysis) | 헬스케어 | *잔차 분석 · SHAP*로 "환자 중증도 vs 병원 부주의" 인과 분리 |
+| **Part 3** | [직원 이직 분석](https://github.com/chamin1010a-droid/employee-attrition-analysis) | HR | 데이터가 작아 *ML 대신 고전 통계*를 택한 도구 판단 자체가 분석 |
 
 > Part 1에서 "예상 도착일 − 실제 도착일" 잔차로 *과대예측 vs 지연*을 분리한 발상을, Part 2에서는 "중증도 예측 − 실제 재입원" 잔차로 *불가피한 재입원 vs 예상 밖 재입원*을 분리하는 데 그대로 확장했습니다.
